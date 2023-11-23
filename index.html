@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- 111111111111111111111111111111111111111111111111111 -->
+    <form id="signupForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        
+        <button type="button" onclick="displayUserData()">Submit</button>
+    </form>
+    
+    <div id="userData"></div>
+
+<!-- 22222222222222222222222222222222222222222222222222222 -->
+    
+    <div class="item">
+        <h2>Item Title</h2>
+        <p>Summary of item details. This is what the user sees initially.</p>
+        <button class="read-more-btn" onclick="toggleDetails(this)">Read more</button>
+        <div class="details">
+            <p>Full details of the item. These details are hidden initially.</p>
+            <p>Additional information...</p>
+        </div>
+    </div>
+
+    <!-- 3333333333333333333333333333333333333333333333333 -->
+
+    <form id="studentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+
+        <button type="button" onclick="addStudent()">Add Student</button>
+    </form>
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+         
+        </tbody>
+    </table>
+
+    <div id="editForm">
+        <h2>Edit Student</h2>
+        <label for="editName">Name:</label>
+        <input type="text" id="editName" required>
+
+        <label for="editAge">Age:</label>
+        <input type="number" id="editAge" required>
+
+        <button type="button" onclick="submitEdit()">Submit</button>
+    </div>
+
+
+<script src="./app.js"></script>
+
+</body>
+</html>
+ 

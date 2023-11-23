@@ -1,0 +1,109 @@
+/* 1111111111111111111111111111111111111111 */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+form {
+    background-color: #b97878;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 10px solid rgb(248, 248, 248);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#userData {
+    margin-top: 20px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: cadetblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+/* 2222222222222222222222222222222222222222222222222222 */
+.item {
+    border: 10px solid #ddd;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #b97878;
+}
+
+.details {
+    display: none;
+}
+
+.read-more-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 33333333333333333333333333333333333333333333333333333 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    background: #b97878;
+}
+
+button {
+    cursor: pointer;
+}
+
+#editForm {
+    display: none;
+}
